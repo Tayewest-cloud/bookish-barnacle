@@ -1,0 +1,115 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+} */
+.container{
+    /* display: grid;
+    grid-template-columns:1fr 1fr ; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin: 50px; */
+    justify-content: center;
+ width: 87%;
+  padding: 0px 0px;
+  gap: 50px;
+
+}
+
+.col1{
+    padding: 0px ; 
+    width: 40%;
+   
+}
+.col2{
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+     justify-content: center;
+     width: 50%;
+     
+}
+.p1{
+    justify-content: center;
+    display: flex;
+    gap: 0px;
+}
+span{
+    color: red;
+    background-color: #ffffff;
+}
+.pt{
+    background-color: #AA0000;
+    color: #ffffff;
+}
+
+.pt1{
+    background-color: #AA0000;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    width: 50%;
+}
+.pt2{
+    background-color: #23255b;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+      width: 50%;
+}
+.col2 p{
+    color: #333;
+}
+.form-bg{
+    background-size: cover;
+    text-align: center;
+    padding: 60px;
+}
+#wm{
+    color: #AA0000;
+    text-align: left;
+}
+inpu{
+    width: 40%;
+}
+hr{
+    margin-top: 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .div.form-b{
+  padding: 0px;
+  margin: 70px;
+    }
+      .form{
+  padding:  0px;
+  margin: 70px;
+    }
+    /* .container{
+        padding: 70px;
+        margin: 60px;
+         justify-content: center;
+    } */
+}
+/* .fruit{
+    display: flex;
+    gap:20px;
+} */
